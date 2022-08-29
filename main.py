@@ -145,7 +145,7 @@ def detect_answers(bgr_image: np.array,
             cv2.waitKey(0)
             cv2.destroyAllWindows()
 
-    return None
+    return crop_for_saving
 
 
 def main(folder_name="simStorage"):
