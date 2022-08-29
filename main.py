@@ -144,6 +144,7 @@ def detect_answers(bgr_image: np.array,
             cv2.imshow(category[predicted_category_index], crop_for_saving)
             cv2.waitKey(0)
             cv2.destroyAllWindows()
+
     return None
 
 
